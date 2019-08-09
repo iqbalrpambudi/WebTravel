@@ -1,0 +1,27 @@
+.mt-cus-rental{
+    margin-top: 70px;
+}
+.bg-mobil{
+    background-image: url('../image/avanza-new.jpg');
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin-bottom: 0;
+
+}
+.bg-mobil::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)) ;
+    bottom: 0;
+    left: 0;
+}
+.jumbotron-paket{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+}

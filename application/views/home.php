@@ -83,7 +83,7 @@
 </div>
 
 <!-- Rental Mobil -->
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light pb-5">
   <div class="row py-5 justify-content-center">
       <h2 style="font-family: 'Raleway', sans-serif;">PILIHAN MOBIL</h2>  
   </div>
@@ -95,7 +95,7 @@
 
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-success">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -114,7 +114,7 @@
         <div class="col-lg">
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-primary">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -133,7 +133,7 @@
         <div class="col-lg">
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-warning">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -152,7 +152,7 @@
         <div class="col-lg">
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-info">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -171,7 +171,7 @@
         <div class="col-lg">
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-secondary">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -190,7 +190,7 @@
         <div class="col-lg">
           <!-- Card start -->
           <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header">
+          <div class="card-header bg-danger">
             <h4 class="mx-auto"> Toyota Avanza</h4>
           </div>
             <img src="assets/image/avanza.png" class="card-img-top">
@@ -212,14 +212,14 @@
 
 <!-- Paket Wisata -->
 <div class="container-fluid bg-bgr">
-  <div class="row py-5 justify-content-center text-light">
+  <div class="row py-5 justify-content-center text-dark">
       <h2 style="font-family: 'Raleway', sans-serif;position:relative;z-index:1;" >PAKET WISATA</h2>  
   </div>
   <div class="row justify-content-center">
     <div class="col-lg-9">
       <div class="row">
         <div class="col-lg">
-          <div class="card mx-auto mb-5" style="width: 18rem;">
+          <div class="card mx-auto mb-5 bg-danger" style="width: 18rem;">
             <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket A</h5>
@@ -236,7 +236,7 @@
           </div>
         </div>
         <div class="col-lg">
-          <div class="card mx-auto mb-5" style="width: 18rem;">
+          <div class="card mx-auto mb-5 bg-warning" style="width: 18rem;">
             <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket A</h5>
@@ -253,7 +253,7 @@
           </div>
         </div>
         <div class="col-lg">
-          <div class="card mx-auto mb-5" style="width: 18rem;">
+          <div class="card mx-auto mb-5 bg-success" style="width: 18rem;">
             <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket A</h5>

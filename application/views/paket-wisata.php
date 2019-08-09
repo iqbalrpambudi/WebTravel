@@ -12,11 +12,11 @@
       <h2 style="font-family: 'Raleway', sans-serif;position:relative;z-index:1;" >PAKET WISATA</h2>  
   </div> -->
   <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-9">
       <div class="row">
         <div class="col-lg">
           <div class="card mx-auto mb-5 bg-danger text-light" style="width: 18rem;">
-            <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
+            <img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket A</h5>
               <p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
@@ -33,7 +33,7 @@
         </div>
         <div class="col-lg">
           <div class="card mx-auto mb-5 bg-warning" style="width: 18rem;">
-            <img src="assets/image/pantai-3.jpg" class="card-img-top" alt="Paket Prambanan">
+            <img src="assets/image/pantai-3.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket B</h5>
               <p class="card-text">Wisata Tujuan ke Candi Parangtritis, Pantai Depok, Pantai Cemoro Sewu</p>
@@ -50,7 +50,7 @@
         </div>
         <div class="col-lg">
           <div class="card mx-auto mb-5 bg-success" style="width: 18rem;">
-            <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
+            <img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
             <div class="card-body">
               <h5 class="card-title">Paket C</h5>
               <p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
