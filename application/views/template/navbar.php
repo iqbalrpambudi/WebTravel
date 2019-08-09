@@ -1,5 +1,5 @@
 <!-- Nav Bar -->
-  <nav class="navbar navbar-default navbar-expand-lg navbar-light navbar-fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light ">
     <div class="container">
     <a class="navbar-brand" href="#">
       <img src="assets/image/logo.png" alt="logo">
@@ -9,10 +9,10 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Paket Wisata</a>
-        <a class="nav-item nav-link" href="#">Rental Mobil</a>
-        <a class="nav-item nav-link" href="#">Tempat Wisata</a>
+        <a class="nav-item nav-link" href="<?php echo base_url()?>">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="<?php echo base_url()?>paket">Paket Wisata</a>
+        <a class="nav-item nav-link" href="<?php echo base_url()?>rental">Rental Mobil</a>
+        <a class="nav-item nav-link" href="<?php echo base_url()?>wisata">Tempat Wisata</a>
         <button class="btn btn-info my-2 my-sm-0"><i class="fa fa-phone fa-lg fa-fw mr-2" aria-hidden="true"></i><b>Kontak Kami</b></button>
       </div>
     </div>

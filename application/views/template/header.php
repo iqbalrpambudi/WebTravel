@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"  >
  
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/paket.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
     <!-- Icons -->
-    <script src="https://kit.fontawesome.com/7dc4f3f8ea.js"></script>
-    <title>Rental Mobil</title>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    <title><?php echo $judul?></title>
   </head>
   <body>

@@ -51,21 +51,21 @@
 
 <!-- Info Layanan -->
 <div class="container-fluid">
-    <div class="row justify-content-center py-5 bg-info text-light">
-      <div class="col-10">
+    <div class="row justify-content-center py-3 bg-primary text-light">
+      <div class="col-lg-9">
         <div class="row info-panel">
           <div class="col-lg">
-            <i class="fas fa-car-alt fa-5x float-left fa-fw"></i>
+            <i class="fas fa-car-alt fa-5x float-left fa-fw mb-2 mr-2"></i>
             <h4>Banyak Pilihan</h4>
             <p>Tersedia Berbagai macam paket wisata</p>
           </div>
           <div class="col-lg">
-            <i class="fas fa-user-friends fa-5x float-left fa-fw"></i>
+            <i class="fas fa-user-friends fa-5x float-left fa-fw mb-2 mr-2"></i>
             <h4>Sopir Terbaik</h4>
             <p>Sopir berpengalaman dan profesional</p>
           </div>
           <div class="col-lg">
-            <i class="fas fa-clipboard-check fa-5x float-left fa-fw"></i>
+            <i class="fas fa-clipboard-check fa-5x float-left fa-fw mb-2 mr-2"></i>
             <h4>Layanan Terbaik</h4>
             <p>Kami mengutamakan layanan yang prima dan kualitas terbaik</p>
           </div>
@@ -77,19 +77,19 @@
 <!--Jumbotron  -->
 <div class="jumbotron jumbotron-fluid bg-img">
   <div class="container">
-    <h1 class="display-4 custom-display-4">Piknik Tanpa Ribet</h1>
+    <h1 class="display-4 custom-display-4">Gausah Panik Kalo Mau Piknik</h1>
     <p class="custom-lead lead">Pesan sekarang dan nikmati liburanmu tanpa repot</p>
   </div>
 </div>
 
-<!-- Rental -->
+<!-- Rental Mobil -->
 <div class="container-fluid bg-light">
   <div class="row py-5 justify-content-center">
       <h2 style="font-family: 'Raleway', sans-serif;">PILIHAN MOBIL</h2>  
   </div>
 
   <!-- Paket Mobil -->
-  <div class="col-lg-10 mx-auto">
+  <div class="col-lg-9 mx-auto">
       <div class="row">
         <div class="col-lg">
 
@@ -216,7 +216,7 @@
       <h2 style="font-family: 'Raleway', sans-serif;position:relative;z-index:1;" >PAKET WISATA</h2>  
   </div>
   <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-9">
       <div class="row">
         <div class="col-lg">
           <div class="card mx-auto mb-5" style="width: 18rem;">
@@ -276,50 +276,46 @@
 </div>
 
 <!-- Testimoni -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h4 class="display-4">Testimoni</h4>
-    <div class="row">    
-      <div class="col-sm-3 my-4">
-      <div class="card w-75 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
+<div class="container-fluid bg-white">
+  <div class="row pt-5 justify-content-center text-dark">
+      <h2 style="font-family: 'Raleway', sans-serif;">TESTIMONI</h2>  
+  </div>
+
+    <div class="row mx-auto justify-content-center">    
+      <div class="col-lg-9 my-4">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card w-75 mx-auto my-3 bg-light">
+              <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card w-75 mx-auto my-3 bg-light">
+              <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card w-75 mx-auto my-3 bg-light">
+              <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-      <div class="col-sm-3 my-4">
-      <div class="card w-75 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
-        </div>
-      </div>
-      </div>
-      <div class="col-sm-3 my-4">
-      <div class="card w-75 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
-        </div>
-      </div>
-      </div>
-      <div class="col-sm-3 my-4">
-      <div class="card w-75 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="assets/image/john-doe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Pelayanannya bagus, sopirnya ramah, perjalanan saya jadi nyaman, puas deh pake rental mobil jogja</p>
-        </div>
-      </div>
-      </div>
-    </div>
-    
+      </div> 
   </div>
 </div>
 
 <!-- Kontak -->
-<div class="container-fluid bg-white">
-  <div class="container text-dark text-center pt-5">
+<div class="container-fluid bg-secondary">
+  <div class="container text-light text-center pt-5">
       <h4 style="font-family: 'Raleway', sans-serif;">Hubungi kami</h4>
       <div class="row">    
         <div class="col-sm-3 my-4">
