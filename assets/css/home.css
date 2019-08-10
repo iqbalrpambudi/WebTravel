@@ -35,7 +35,7 @@
     
 }
 .carousel-inner img{
-    width: 100%;
+    height: 100%;
 }
 .custom-display-4{
     text-align: center;
@@ -61,15 +61,6 @@
     margin-bottom: 40px;
 }
 
-.card-header-orange{
-    background-color: #f5811d;
-    color: white
-}
-.card-header-purple{
-    background-color: #7c4dff;
-    color: white
-}
-
 .card{
     position: relative;
     z-index: 1;
@@ -77,10 +68,6 @@
 .card-color{
     background-color:#f2f2f2;
     transition: ease 0.3s;
-}
-.card:hover{
-    background-color: #ccedf9;
-    transition: ease-out 0.3s;
 }
 /* Overlay Image */
 .bg-bgr{

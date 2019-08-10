@@ -30,10 +30,10 @@
         </div>
     </div>
     <div class="carousel-item">
-        <img src="assets/image/borobudur.jpg" alt="Third SLide">
+        <img src="assets/image/traveller.jpg" alt="Third SLide">
         <div class="carousel-caption">
-            <h3 class="txtshadow display-4">Tugu Jogja</h3>
-            <p>Wisata Populer dan ikonik di jogja yang berada di tengah kota</p>
+            <h3 class="txtshadow display-4">Mau Kemana Hari Ini</h3>
+            <p>Temukan paket wisata sesuai keinginanmu hanya di Sukses Travelindo</p>
         </div>
     </div>
   </div>
@@ -87,127 +87,126 @@
   <div class="row py-5 justify-content-center">
       <h2 style="font-family: 'Raleway', sans-serif;">PILIHAN MOBIL</h2>  
   </div>
-
   <!-- Paket Mobil -->
   <div class="col-lg-9 mx-auto">
-      <div class="row">
-        <div class="col-lg">
+        <div class="row">
+          <div class="col-lg">
 
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-success">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-danger">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
           </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-warning">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
           </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-primary">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
           </div>
-          <!-- Card End -->
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-success">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-info">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-secondary">
+              <h4 class="mx-auto"> Toyota Avanza</h4>
+            </div>
+              <img src="assets/image/avanza.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
         </div>
-        <div class="col-lg">
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-primary">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
-          </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
-          </div>
-          </div>
-          <!-- Card End -->
-        </div>
-        <div class="col-lg">
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-warning">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
-          </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
-          </div>
-          </div>
-          <!-- Card End -->
-        </div>
-        <div class="col-lg">
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-info">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
-          </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
-          </div>
-          </div>
-          <!-- Card End -->
-        </div>
-        <div class="col-lg">
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-secondary">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
-          </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
-          </div>
-          </div>
-          <!-- Card End -->
-        </div>
-        <div class="col-lg">
-          <!-- Card start -->
-          <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-          <div class="card-header bg-danger">
-            <h4 class="mx-auto"> Toyota Avanza</h4>
-          </div>
-            <img src="assets/image/avanza.png" class="card-img-top">
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <h3 class="mx-auto">Rp.300Ribu</h3>
-              <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
-              <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
-            </ul>
-          </div>
-          </div>
-          <!-- Card End -->
-        </div>
-      </div>
-    </div>    
+  </div>    
 </div>
 
 <!-- Paket Wisata -->
