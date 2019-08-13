@@ -13,6 +13,7 @@
         <a class="nav-item nav-link" href="<?php echo base_url()?>paket">Paket Wisata</a>
         <a class="nav-item nav-link" href="<?php echo base_url()?>rental">Rental Mobil</a>
         <a class="nav-item nav-link" href="<?php echo base_url()?>wisata">Tempat Wisata</a>
+        <a class="nav-item nav-link" href="<?php echo base_url()?>sahabat">Sahabat</a>
         <button class="btn btn-info my-2 my-sm-0"><i class="fa fa-phone fa-lg fa-fw mr-2" aria-hidden="true"></i><b>Kontak Kami</b></button>
       </div>
     </div>

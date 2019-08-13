@@ -1,7 +1,15 @@
 <!-- Footer -->
 <div class="container-fluid bg-dark text-light">
   <div class="container p-3">
-    <p class="my-auto">Sukses Transindo | All Rights Reserverd</p> 
+    <div class="row">
+    <div class="col-md-6">
+      <p class="my-auto text-left">Sukses Transindo | All Rights Reserverd</p>
+    </div>
+    <div class="col-md-6">
+      <p class="my-auto text-right">Designed & Developed By Iqbal Pambudi</p>
+      <p class="my-auto text-right">085655638843</p>
+    </div>
+    </div>
   </div>
 </div>
 

@@ -30,9 +30,9 @@
         </div>
     </div>
     <div class="carousel-item">
-        <img src="assets/image/traveller.jpg" alt="Third SLide">
+        <img src="assets/image/bali.jpg" alt="Third SLide">
         <div class="carousel-caption">
-            <h3 class="txtshadow display-4">Mau Kemana Hari Ini</h3>
+            <h3 class="txtshadow display-4">Bali</h3>
             <p>Temukan paket wisata sesuai keinginanmu hanya di Sukses Travelindo</p>
         </div>
     </div>
@@ -94,13 +94,13 @@
 
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-danger">
+            <div class="card-header bg-primary text-light">
               <h4 class="mx-auto"> Toyota Avanza</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/avanza-hitam.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -113,13 +113,13 @@
           <div class="col-lg">
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-warning">
-              <h4 class="mx-auto"> Toyota Avanza</h4>
+            <div class="card-header bg-primary text-light">
+              <h4 class="mx-auto"> Daihatsu Sigra</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/sigra-putih.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -132,13 +132,13 @@
           <div class="col-lg">
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-primary">
-              <h4 class="mx-auto"> Toyota Avanza</h4>
+            <div class="card-header bg-primary text-light">
+              <h4 class="mx-auto"> Mitsubishi Avanza</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/xpander-putih.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -151,13 +151,13 @@
           <div class="col-lg">
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-success">
-              <h4 class="mx-auto"> Toyota Avanza</h4>
+            <div class="card-header bg-primary text-light">
+              <h4 class="mx-auto"> Toyota Kijang Inova</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/inova-hitam.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -170,13 +170,13 @@
           <div class="col-lg">
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-info">
-              <h4 class="mx-auto"> Toyota Avanza</h4>
+            <div class="card-header bg-primary text-light">
+              <h4 class="mx-auto"> Honda Brio</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/brio-hitam.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -189,13 +189,89 @@
           <div class="col-lg">
             <!-- Card start -->
             <div class="card card-color my-3 mx-auto" style="width: 18rem;">
-            <div class="card-header bg-secondary">
-              <h4 class="mx-auto"> Toyota Avanza</h4>
+            <div class="card-header bg-primary text-light">
+              <h4 class="mx-auto"> Toyota Calya</h4>
             </div>
-              <img src="assets/image/avanza.png" class="card-img-top">
+              <img src="assets/image/mobil/calya-abu.png" class="card-img-top">
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <h3 class="mx-auto">Rp.300Ribu</h3>
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-info text-light">
+              <h4 class="mx-auto"> Toyota Hiace</h4>
+            </div>
+              <img src="assets/image/mobil/hiace-putih.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-info text-light">
+              <h4 class="mx-auto">Elf Long</h4>
+            </div>
+              <img src="assets/image/mobil/elf-long.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-info text-light">
+              <h4 class="mx-auto"> Medium Bus</h4>
+            </div>
+              <img src="assets/image/mobil/medium-bus.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
+                <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
+                <li class="list-group-item bg-transparent"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Free Air Mineral</li>
+              </ul>
+            </div>
+            </div>
+            <!-- Card End -->
+          </div>
+          <div class="col-lg">
+            <!-- Card start -->
+            <div class="card card-color my-3 mx-auto" style="width: 18rem;">
+            <div class="card-header bg-info text-light">
+              <h4 class="mx-auto"> Big Bus</h4>
+            </div>
+              <img src="assets/image/mobil/big-bus.png" class="card-img-top">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <h3 class="mx-auto bg-success text-light p-2 rounded">Rp.300Ribu</h3>
                 <li class="list-group-item bg-transparent"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-shopping-cart mr-2 fa-fw"></i>4 Orang</li>
                 <li class="list-group-item bg-transparent"><i class="fas fa-clipboard-check mr-2 fa-fw"></i>Mobil + Sopir + BBM</li>
@@ -206,72 +282,238 @@
             <!-- Card End -->
           </div>
         </div>
-  </div>    
+  </div> 
 </div>
-
 <!-- Paket Wisata -->
-<div class="container-fluid bg-bgr">
-  <div class="row py-5 justify-content-center text-dark">
-      <h2 style="font-family: 'Raleway', sans-serif;position:relative;z-index:1;" >PAKET WISATA</h2>  
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-lg-9">
-      <div class="row">
-        <div class="col-lg">
-          <div class="card mx-auto mb-5 bg-danger" style="width: 18rem;">
-            <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
-            <div class="card-body">
-              <h5 class="card-title">Paket A</h5>
-              <p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
-              <li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
-              <li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
-            </ul>
-            <div class="card-body">
-            <!-- <a href="#" class="btn btn-info mt-2 btn-block">Order</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg">
-          <div class="card mx-auto mb-5 bg-warning" style="width: 18rem;">
-            <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
-            <div class="card-body">
-              <h5 class="card-title">Paket A</h5>
-              <p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
-              <li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
-              <li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
-            </ul>
-            <div class="card-body">
-            <!-- <a href="#" class="btn btn-info mt-2 btn-block">Order</!-->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg">
-          <div class="card mx-auto mb-5 bg-success" style="width: 18rem;">
-            <img src="assets/image/prambanan.jpg" class="card-img-top" alt="Paket Prambanan">
-            <div class="card-body">
-              <h5 class="card-title">Paket A</h5>
-              <p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
-              <li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
-              <li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
-            </ul>
-            <div class="card-body">
-            <!-- <a href="#" class="btn btn-info mt-2 btn-block">Order</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="container-fluid bg-bgr pt-3">
+	<ul class="nav nav-pills mb-3 zindex" id="pills-tab" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#paket-yogyakarta" role="tab"
+				aria-controls="pills-home" aria-selected="true">Paket Yogyakarta</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#paket-malang" role="tab"
+				aria-controls="pills-profile" aria-selected="false">Paket Malang</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#paket-luarnegeri" role="tab"
+				aria-controls="pills-contact" aria-selected="false">Paket Luar Negeri</a>
+		</li>
+  </ul>
+  <!-- Item Tab -->
+	<div class="tab-content" id="pills-tabContent">
+		<div class="tab-pane fade show active" id="paket-yogyakarta" role="tabpanel" aria-labelledby="pills-home-tab">
+			<!-- Paket Yogyakarta -->
+			<div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light text-dark" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket A</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-danger text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/pantai-3.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket B</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Parangtritis, Pantai Depok, Pantai Cemoro Sewu</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-danger text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket C</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-danger text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end yogyakarta -->
+		</div>
+		<div class="tab-pane fade" id="paket-malang" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <!-- Paket Malang -->
+      <div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light text-dark" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket D</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-success text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/pantai-3.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket E</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Parangtritis, Pantai Depok, Pantai Cemoro Sewu</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-success text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket F</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-success text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <!-- End Paket Malang -->
     </div>
-  </div>
-  
+		<div class="tab-pane fade" id="paket-luarnegeri" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <!-- Paket Luar negeri -->
+      <div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light text-dark" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket G</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-primary text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/pantai-3.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket H</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Parangtritis, Pantai Depok, Pantai Cemoro Sewu</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-primary text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="card mx-auto mb-5 bg-light" style="width: 18rem;">
+								<img src="assets/image/prambanan.jpg" class="card-img-top img-padding" alt="Paket Prambanan">
+								<div class="card-body">
+									<h5 class="card-title">Paket I</h5>
+									<p class="card-text">Wisata Tujuan ke Candi Prambanan, Candi Borobudur, Candi Mendut</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item text-light bg-primary text-center">
+										<h3>Rp.300.000</h3>
+									</li>
+									<li class="list-group-item"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam Wisata</li>
+									<li class="list-group-item"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil Avanza</li>
+									<li class="list-group-item"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air + Snack</li>
+								</ul>
+								<div class="card-footer border-top-0">
+									<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <!-- End Paket Malang -->
+      <!-- End paket luar negeri -->
+    </div>
+	</div>
 </div>
 
 <!-- Testimoni -->
