@@ -1,33 +1,33 @@
-.mt-cus-rental{
-    margin-top: 70px;
+.mt-- {
+	margin-top: -70px;
+	position: relative;
+	z-index: 2;
 }
-.mt--{
-    margin-top: -70px;
-    position: relative;
-    z-index: 2;
-}
-.bg-mobil{
-    background-image: url('../image/avanza-new.jpg');
-    background-position:center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    margin-bottom: 0;
-    height: 300px;
+
+.bg-mobil {
+	background-image: url('../image/avanza-new.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: white;
+	margin-bottom: 0;
+	height: 300px;
 
 }
-.bg-mobil::after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0,0,0,0.3);
-    bottom: 0;
-    left: 0;
+
+.bg-mobil::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	bottom: 0;
+	left: 0;
 }
-.jumbotron-paket{
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0 !important;
+
+.jumbotron-paket {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0 !important;
 }

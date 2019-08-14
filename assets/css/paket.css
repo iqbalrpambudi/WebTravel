@@ -1,45 +1,49 @@
-.custom-jumbotron-paket{
-    margin-top:70px;
-    height: 350px;
-    background-image: url('../image/traveller.jpg');
-    background-size: cover;
-    background-position-y: 30%;
-    position: relative;
-    padding-top: 90px;
-}
-.custom-jumbotron-paket::after{
-    position: absolute;
-    bottom: 0;
-    display: block;
-    content: '';
-    background-color: rgba(0, 0, 0, 0.3) 
-    height: 100%;
-    width: 100%;
-}
-.mt-cus-paket{
-    margin-top: -229px;
-}
-.custom-display-4-paket{
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
-}
-.custom-lead-4-paket{
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
-}
-.img-padding{
-    padding: 5px;
+.custom-jumbotron-paket {
+	height: 350px;
+	background-image: url('../image/traveller.jpg');
+	background-size: cover;
+	background-position-y: 30%;
+	position: relative;
+	padding-top: 90px;
 }
 
-.zindex{
-    position: relative;
-    z-index: 19;
+.custom-jumbotron-paket::after {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	content: '';
+	background-color: rgba(0, 0, 0, 0.3) height: 100%;
+	width: 100%;
+}
+
+.mt-cus-paket {
+	margin-top: -229px;
+}
+
+.custom-display-4-paket {
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.custom-lead-4-paket {
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.img-padding {
+	padding: 5px;
+}
+
+.zindex {
+	position: relative;
+	z-index: 19;
 }
 
 
 @media (min-width: 992px) {
-    .custom-jumbotron-paket{
-    padding-top: 64px;
-    }
-    .mt-cus-paket{
-        margin-top: -229px;
-    }
- }
+	.custom-jumbotron-paket {
+		padding-top: 64px;
+	}
+
+	.mt-cus-paket {
+		margin-top: -229px;
+	}
+}

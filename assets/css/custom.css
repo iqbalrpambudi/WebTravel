@@ -1,0 +1,15 @@
+body {
+	padding-top: 60px;
+}
+
+nav {
+	height: 60x;
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;
+	width: 100%;
+}
+
+.nav-up {
+	top: -95px;
+}

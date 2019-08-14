@@ -1,7 +1,6 @@
-<div class="container-fluid">
-
+<div class="container-fluid p-0">
 	<!-- Carousel -->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -11,32 +10,16 @@
 		<!-- Carousel Item -->
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="assets/image/borobudur.jpg" alt="Third SLide">
-				<div class="carousel-caption">
-					<h3 class="txtshadow display-4">Borobudur</h3>
-					<p>Wisata sejarah populer di Magelang</p>
-				</div>
+				<img src="assets/image/borobudur.jpg" alt="First Slide">
 			</div>
 			<div class="carousel-item">
-				<img src="assets/image/prambanan.jpg" alt="Third SLide">
-				<div class="carousel-caption">
-					<h3 class="txtshadow display-4">Prambanan</h3>
-					<p>Nikmati wisata pantai legendaris di jogja</p>
-				</div>
+				<img src="assets/image/prambanan.jpg" alt="Second Slide">
 			</div>
 			<div class="carousel-item">
-				<img src="assets/image/pantai.jpg" alt="Third SLide">
-				<div class="carousel-caption">
-					<h3 class="txtshadow display-4">Pantai</h3>
-					<p>Wisata Populer dan ikonik di jogja yang berada di tengah kota</p>
-				</div>
+				<img src="assets/image/pantai.jpg" alt="Third Slide">
 			</div>
 			<div class="carousel-item">
-				<img src="assets/image/traveller.jpg" alt="Third SLide">
-				<div class="carousel-caption">
-					<h3 class="txtshadow display-4">Mau Kemana Hari Ini</h3>
-					<p>Temukan paket wisata sesuai keinginanmu hanya di Sukses Travelindo</p>
-				</div>
+				<img src="assets/image/traveller.jpg" alt="Fourth Slide">
 			</div>
 		</div>
 
@@ -73,6 +56,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="container">
 	<!-- Wisata -->
 	<div class="card w-100 my-3">

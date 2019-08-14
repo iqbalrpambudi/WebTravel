@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/paket.css">
     <link rel="stylesheet" href="assets/css/rental.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
