@@ -34,6 +34,7 @@
 			<div class="card-body">
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item bg-transparent">Lokasi :     <span class="text-info"><?= $lks['lokasi']?></span></li>
+					<li class="list-group-item bg-transparent">Spot :  <span class="text-info"><?= $lks['spot']?></span></li>
 					<li class="list-group-item bg-transparent">Deskripsi :  <span class="text-info"><?= $lks['deskripsi']?></span></li>
 				</ul>
 			</div>

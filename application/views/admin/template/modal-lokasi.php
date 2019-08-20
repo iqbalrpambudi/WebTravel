@@ -65,6 +65,11 @@
 								value="<?= $lks['lokasi']?>">
 						</div>
 						<div class="form-group">
+							<label for="spot<?= $lks['id']?>">Spot Lokasi</label>
+							<input type="text" class="form-control" id="spot<?= $lks['id']?>" name="spot"
+								value="<?= $lks['spot']?>">
+						</div>
+						<div class="form-group">
 							<label for="deskripsi<?= $lks['id']?>">Deskripsi</label>
 							<input type="text" class="form-control" id="deskripsi<?= $lks['id']?>" name="deskripsi"
 								value="<?= $lks['deskripsi']?>">

@@ -6,100 +6,129 @@
             parent::__construct();
             $this->load->model('Admin_model');
             $this->load->helper(array('form'));
+            if (!$this->session->userdata('username')) {
+                $this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Silahkan Login Terlebih dahulu</div>');
+                redirect('login');
+            }
         }
         
         public function index(){
-            $data['judul']='Dashboard';
-            // $data['mobil']=$this->Admin_model->getAllMobil();
-            // $data['maxid']=$this->Admin_model->getMaxId();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/dashboard');
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/script');
+                $data['judul']='Dashboard';
+                $data['user']=$this->session->userdata('username');
+                // $data['mobil']=$this->Admin_model->getAllMobil();
+                // $data['maxid']=$this->Admin_model->getMaxId();
+                $data['mobil']=$this->Admin_model->count('mobil');
+                $data['paket']=$this->Admin_model->count('paket');
+                $data['rohani']=$this->Admin_model->count('rohani');
+                $data['lokasi']=$this->Admin_model->count('lokasi');
+                $data['testi']=$this->Admin_model->count('testimoni');
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/dashboard',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/script');
+        }
+
+        public function logout(){
+            $this->session->unset_userdata('username');
+            $this->session->set_userdata(['session' => false]);
+            $this->session->set_flashdata('message','<div class="alert alert-success" role="alert">Anda telah keluar</div>');
+            redirect('login');
         }
         public function mobil($error=''){
-            $data['error']=$error;
-            $data['judul']='Data Mobil';
-            $data['mobil']=$this->Admin_model->getAllMobil();
-            $data['maxid']=$this->Admin_model->getMaxId();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/mobil',$data);
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/modal-mobil',$data);
-            $this->load->view('admin/template/script');
+                $data['error']=$error;
+                $data['judul']='Data Mobil';
+                $data['user']=$this->session->userdata('username');
+                $data['mobil']=$this->Admin_model->getAllMobil();
+                $data['maxid']=$this->Admin_model->getMaxId();
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/mobil',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/modal-mobil',$data);
+                $this->load->view('admin/template/script');
         }
         public function paket($error=''){
-            $data['error']=$error;
-            $data['judul']='Data Paket Wisata';
-            $data['paket']=$this->Admin_model->getAllPaket();
-            $data['maxid']=$this->Admin_model->getMaxIdPaket();
-            $data['lokasi']=$this->Admin_model->GetLokasiPaket();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/paketwisata',$data);
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/modal-paket',$data);
-            $this->load->view('admin/template/script');
+                $data['error']=$error;
+                $data['judul']='Data Paket Wisata';
+                $data['user']=$this->session->userdata('username');
+                $data['paket']=$this->Admin_model->getAllPaket();
+                $data['maxid']=$this->Admin_model->getMaxIdPaket();
+                $data['lokasi']=$this->Admin_model->GetLokasiPaket();
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/paketwisata',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/modal-paket',$data);
+                $this->load->view('admin/template/script');
         }
         public function rohani($error=''){
-            $data['error']=$error;
-            $data['judul']='Data Paket Wisata Rohani';
-            $data['rohani']=$this->Admin_model->getAllPaketRohani();
-            $data['maxid']=$this->Admin_model->getMaxIdPaketRohani();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/paketrohani',$data);
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/modal-rohani',$data);
-            $this->load->view('admin/template/script');
+                $data['error']=$error;
+                $data['judul']='Data Paket Wisata Rohani';
+                $data['user']=$this->session->userdata('username');
+                $data['rohani']=$this->Admin_model->getAllPaketRohani();
+                $data['maxid']=$this->Admin_model->getMaxIdPaketRohani();
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/paketrohani',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/modal-rohani',$data);
+                $this->load->view('admin/template/script');
         }
         public function lokasi($error=''){
-            $data['error']=$error;
-            $data['judul']='Data Tempat Wisata';
-            $data['lokasi']=$this->Admin_model->getAllLokasi();
-            $data['maxid']=$this->Admin_model->getMaxIdLokasi();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/lokasi',$data);
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/modal-lokasi',$data);
-            $this->load->view('admin/template/script');
+                $data['error']=$error;
+                $data['judul']='Data Tempat Wisata';
+                $data['user']=$this->session->userdata('username');
+                $data['lokasi']=$this->Admin_model->getAllLokasi();
+                $data['maxid']=$this->Admin_model->getMaxIdLokasi();
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/lokasi',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/modal-lokasi',$data);
+                $this->load->view('admin/template/script');
         }
         public function testimoni($error=''){
-            $data['error']=$error;
-            $data['judul']='Data Testimoni';
-            $data['testimoni']=$this->Admin_model->getAllTestimoni();
-            $data['maxid']=$this->Admin_model->getMaxIdTestimoni();
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/testimoni',$data);
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/modal-testimoni',$data);
-            $this->load->view('admin/template/script');
+                $data['error']=$error;
+                $data['judul']='Data Testimoni';
+                $data['user']=$this->session->userdata('username');
+                $data['testimoni']=$this->Admin_model->getAllTestimoni();
+                $data['maxid']=$this->Admin_model->getMaxIdTestimoni();
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/testimoni',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/modal-testimoni',$data);
+                $this->load->view('admin/template/script');
         }
         public function other(){
-            $data['judul']='Data Lain-lain';
-            $this->load->view('admin/template/header',$data);
-            $this->load->view('admin/template/navbar');
-            $this->load->view('admin/template/sidebar');
-            $this->load->view('admin/other');
-            $this->load->view('admin/template/footer');
-            $this->load->view('admin/template/modal');
-            $this->load->view('admin/template/script');
+                $data['judul']='Data Lain-lain';
+                $data['datas']=$this->Admin_model->getData();
+                $data['user']=$this->session->userdata('username');
+                $this->load->view('admin/template/header',$data);
+                $this->load->view('admin/template/navbar');
+                $this->load->view('admin/template/sidebar');
+                $this->load->view('admin/other',$data);
+                $this->load->view('admin/template/footer');
+                $this->load->view('admin/template/modal');
+                $this->load->view('admin/template/script');  
+        }
+
+        public function ubahdata(){
+            $this->Admin_model->UbahData();
+            redirect('admin/other');
         }
     // Image Validation (eror code: 4=NotFound, 5=ExtensionNotValid, 6=FileToLarge)
         public function imagevalidation(){

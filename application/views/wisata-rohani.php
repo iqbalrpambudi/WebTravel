@@ -49,77 +49,26 @@
 		<h5 class="card-header bg-success text-white">Pilihan Paket Wisata Rohani</h5>
 		<div class="card-body bg-light">
 			<div class="row text-dark">
-				<div class="col-lg-4 text-center mb-4">
+				<?php foreach($rohani as $rhn):?>
+					<div class="col-lg-4 text-center mb-4">
 					<div class="card bg-light text-dark w-auto" style="width: 18rem;">
 						<img src="assets/image/gereja.jpg" class="card-img-top img-padding" alt="Paket Wisata Religi">
 						<div class="card-body">
-							<h5 class="card-title">Wisata Religi 1</h5>
-							<p class="card-text">Wisata Tujuan ke x, y, z</p>
+							<h5 class="card-title"><?= $rhn['nama']?></h5>
+							<p class="card-text"><?= $rhn['deskripsi']?></p>
 						</div>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item text-light bg-primary text-center">
-								<h3>Rp.300.000</h3>
+								<h3>Rp.<?= number_format($rhn['harga'],0,'','.');?></h3>
 							</li>
-							<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam
-								Wisata</li>
-							<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil
-								Avanza</li>
-							<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air +
-								Snack</li>
+							<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i><?= $rhn['fasilitas']?></li>
 						</ul>
 						<div class="card-footer border-top-0">
 							<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 text-center mb-4">
-					<div class="card mx-auto w-auto mb-5 bg-light text-dark" style="width: 18rem;">
-						<img src="assets/image/wisata-religi-1.jpg" class="card-img-top img-padding"
-							alt="Paket Wisata Religi">
-						<div class="card-body">
-							<h5 class="card-title">Wisata Religi 2</h5>
-							<p class="card-text">Wisata Tujuan ke x, y, z</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item text-light bg-primary text-center">
-								<h3>Rp.300.000</h3>
-							</li>
-							<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam
-								Wisata</li>
-							<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil
-								Avanza</li>
-							<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air +
-								Snack</li>
-						</ul>
-						<div class="card-footer border-top-0">
-							<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 text-center mb-4">
-					<div class="card w-auto mx-auto mb-5 bg-light text-dark" style="width: 18rem;">
-						<img src="assets/image/taman-wisata-iman.jpg" class="card-img-top img-padding"
-							alt="Paket Wisata Religi">
-						<div class="card-body">
-							<h5 class="card-title">Wisata Religi 3</h5>
-							<p class="card-text">Wisata Tujuan ke x, y, z</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item text-light bg-primary text-center">
-								<h3>Rp.300.000</h3>
-							</li>
-							<li class="list-group-item text-dark"><i class="far fa-clock mr-2 fa-fw"></i>6 Jam
-								Wisata</li>
-							<li class="list-group-item text-dark"><i class="fas fa-car-side mr-2 fa-fw"></i>Mobil
-								Avanza</li>
-							<li class="list-group-item text-dark"><i class="fas fa-plus-circle mr-2 fa-fw"></i>Air +
-								Snack</li>
-						</ul>
-						<div class="card-footer border-top-0">
-							<a href="#" class="btn btn-success mt-2 btn-block">Order</a>
-						</div>
-					</div>
-				</div>
+				<?php endforeach?>
 			</div>
 		</div>
 	</div>
@@ -133,29 +82,29 @@
 			<div class="col-sm-3 my-4">
 				<i class="fab fa-whatsapp fa-3x"></i>
 				<h5>Whatsapp</h5>
-				<p>08565561231</p>
+				<p><?= $datas[0]['telp']?></p>
 			</div>
 			<div class="col-sm-3 my-4">
 				<i class="fas fa-home fa-3x"></i>
 				<h5>Alamat</h5>
-				<p>Jl. Raya Solo Yogyakarta</p>
+				<p><?= $datas[0]['alamat']?></p>
 			</div>
 			<div class="col-sm-3 my-4">
 				<i class="far fa-envelope fa-3x"></i>
 				<h5>Email</h5>
-				<p>suksestransindo@gmail.com</p>
+				<p><?= $datas[0]['email']?></p>
 			</div>
 			<div class="col-sm-3 my-4">
 				<i class="fas fa-globe fa-3x"></i>
 				<h5>Website</h5>
-				<p>suksestransindo.com</p>
+				<p><?= $datas[0]['website']?></p>
 			</div>
 		</div>
 	</div>
 </div>
 
 <!-- Whatsapp Floating Icon -->
-<a href="https://api.whatsapp.com/send?phone=12345678&text=Halo%21%20saya%20mau%20order%20paket%20wisata." class="float"
+<a href="https://api.whatsapp.com/send?phone=<?= $datas[0]['telp']?>&text=Halo%21%20saya%20mau%20order%20paket%20wisata." class="float"
 	target="_blank">
 	<i class="fab fa-whatsapp wa-float"></i>
 </a>

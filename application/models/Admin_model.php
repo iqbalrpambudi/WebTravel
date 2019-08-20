@@ -11,6 +11,10 @@ class Admin_model extends CI_Model{
         public function GetLokasiPaket(){
             return $this->db->get('paket')->result_array();
         }
+        public function count($table){
+            $query = $this->db->get($table);
+            return $query->num_rows();
+    }
         
     // CRUD Mobil
     public function getAllMobil(){
@@ -61,6 +65,12 @@ class Admin_model extends CI_Model{
         $query = $this->db->get('lokasi');
         return $query->result_array();
     }
+    public function selectDistictLokasi(){
+        $this->db->distinct();
+        $this->db->select('lokasi');
+        $query = $this->db->get('lokasi'); 
+        return $query->result_array();
+    }
     public function TambahDataLokasi($gambar){
         $data = [
             "id"        => $this->input->post('id'),
@@ -75,6 +85,7 @@ class Admin_model extends CI_Model{
         $data = [
             "id"        => $this->input->post('id'),
             "lokasi"    => $this->input->post('nama'),
+            "spot"      => $this->input->post('spot'),
             "deskripsi" => $this->input->post('deskripsi')
         ];
         $this->db->where('id', $id);
@@ -120,6 +131,7 @@ class Admin_model extends CI_Model{
     public function HapusDataPaket($id){
         $this->db->delete('paket', array('id' => $id));
     }
+
 
     // CRUD Paket Rohani
     public function getAllPaketRohani(){
@@ -185,5 +197,22 @@ class Admin_model extends CI_Model{
     }
     public function HapusDataTestimoni($id){
         $this->db->delete('testimoni', array('id' => $id));
+    }
+
+    // Data
+    public function getData(){
+        return $this->db->get('data')->result_array();
+    }
+    public function UbahData(){
+        $i=1;
+        $data = [
+            "id"        => $this->input->post('id'),
+            "telp"      => $this->input->post('telp'),
+            "alamat"    => $this->input->post('alamat'),
+            "email"     => $this->input->post('email'),
+            "website"   => $this->input->post('website')
+        ];
+        $this->db->where('id', $i);
+        $this->db->update('data',$data);
     }
 }
