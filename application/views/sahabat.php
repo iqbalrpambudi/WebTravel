@@ -1,5 +1,5 @@
 <!-- Section heading -->
-<div class="container-fluid bg-info text-light p-5 text-center">
+<div class="container-fluid bg-info text-light p-5 text-center" style="margin-top:50px">
 	<h1 class="h1-responsive mx-auto display-4">Sahabat Kami</h1>
 	<!-- Section description -->
 	<p class="dark-grey-text w-responsive">Lorem ipsum dolor sit amet, consectetur adipisicing elit.

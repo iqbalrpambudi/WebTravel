@@ -3,10 +3,12 @@ class Admin_model extends CI_Model{
         public function HapusGambar($id,$table){
             $query = $this->db->get_where($table, array('id' => $id))->result_array();
             $file = 'assets/upload/'.$query[0]['gambar'];
-            if (!$file) {
-                return false;
+            if (file_exists('assets/upload/'.$query[0]['gambar'])) {   
+                unlink($file) or die("Tidak dapat menemukan file!");
             }
-            unlink($file) or die("Tidak dapat menemukan file!");
+            else{
+                return $condition=0;
+            }   
         }
         public function GetLokasiPaket(){
             return $this->db->get('paket')->result_array();

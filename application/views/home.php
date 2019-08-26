@@ -1,5 +1,5 @@
 <!-- Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top:50px">
 	<ol class="carousel-indicators">
 		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -77,7 +77,7 @@
 <!--Jumbotron  -->
 <div class="jumbotron jumbotron-fluid bg-img">
 	<div class="container">
-		<h1 class="display-4 custom-display-4">Gausah Panik Kalo Mau Piknik</h1>
+		<h1 class="display-4 custom-display-4 mt-75px">Gausah Panik Kalo Mau Piknik</h1>
 		<p class="custom-lead lead">Pesan sekarang dan nikmati liburanmu tanpa repot</p>
 	</div>
 </div>

@@ -2,7 +2,7 @@ body {
 	padding-top: 60px;
 }
 
-nav {
+.header {
 	height: 60x;
 	position: fixed;
 	top: 0;
@@ -11,5 +11,12 @@ nav {
 }
 
 .nav-up {
-	top: -95px;
+	top: -55px;
+}
+
+@media (min-width: 992px) {
+	.nav-up {
+		top: -60px;
+	}
+
 }

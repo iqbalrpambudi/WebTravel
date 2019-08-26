@@ -1,4 +1,4 @@
-<div class="jumbotron bg-mobil  mt-cus-rental">
+<div class="jumbotron bg-mobil mt-cus-rental" style="margin-top:50px">
 	<div class="container">
 		<h1 class="display-4 text-right" style="z-index:10;position:relative">Rental Mobil</h1>
 		<p class="lead text-right" style="z-index:10;position:relative">Tersedia berbagai macam pilihan mobil</p>

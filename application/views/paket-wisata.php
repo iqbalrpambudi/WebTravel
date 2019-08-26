@@ -1,5 +1,5 @@
 <!-- Paket Wisata -->
-<div class="jumbotron jumbotron-fluid custom-jumbotron-paket">
+<div class="jumbotron jumbotron-fluid custom-jumbotron-paket" style="margin-top:50px">
 	<div class="container">
 		<h1 style="z-index:10;position:relative" class="display-4 text-light custom-display-4-paket text-center">Paket
 			Wisata</h1>
@@ -30,7 +30,7 @@
 				<div class="tab-pane fade <?= $property?>" id="paket-<?= $loc=str_replace(' ', '-', $lks['lokasi']);?>" role="tabpanel"
 					aria-labelledby="pills-<?= $loc=str_replace(' ', '-', $lks['lokasi']);?>-tab">
 					<div class="row justify-content-center">
-						<div class="col-lg-9">
+						<div class="col-lg-12">
 							<div class="row">
 								<?php foreach($paket as $pkt):?>
 								<?php if(strtolower($pkt['lokasi'])==strtolower($lks['lokasi'])):?>
